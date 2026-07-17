@@ -1,0 +1,125 @@
+body{
+    background-color: gray;
+    background: linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+    
+    overflow-y: auto;
+     -webkit-overflow-scrolling: touch;
+}
+    
+
+span{
+    display:inline-block;
+    padding:15px 35px;
+    background:rgba(255,255,255,.08);
+    border:3px solid skyblue;
+    border-radius:15px;
+    
+    
+    
+    
+}
+h1{
+    color: white;
+    font-size: 250%;
+    position: relative;
+    text-align: center;
+
+    margin-top:40px;
+    margin-bottom:30px;
+    letter-spacing:3px;
+    
+    
+    
+    
+}
+
+ul{ 
+    color: white;
+    font-size: 170%;
+    margin:0;
+    padding-left:25px;
+    text-align: left;
+    
+
+}
+#p2{
+    color: white;
+    font-size: 200%;
+    text-shadow: 5px 5px 5px black;
+}
+/* div */
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.box1{
+   
+    padding:30px;
+    border-color: white;
+    border:2px solid rgba(135,206,235,.7);
+    border-width: 5px;
+    border-radius: 40px;
+    width: 450px;
+    min-height: 450px;
+    margin: 50px;
+    padding: 20px;
+
+    box-sizing: border-box;
+
+     background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(10px);
+
+
+     scroll-snap-align: start;
+    animation: glow 2s infinite alternate;
+}
+.special{
+    
+}
+    
+
+   
+
+  @keyframes glowaf {
+    from {
+        box-shadow: 0 0 5px skyblue;
+    }
+    to {
+        box-shadow:
+            0 0 10px skyblue,
+            0 0 20px deepskyblue,
+            0 0 35px cyan;
+    }
+}  
+
+.box1:hover{
+    transform: translateY(-10px);
+    box-shadow:
+        0 0 20px skyblue,
+        0 0 40px cyan;
+}
+
+li{
+    margin:12px 0;
+    transition:.3s;
+}
+li:hover{
+    color:skyblue;
+    transform:translateX(8px);
+}
+
+html{
+    scroll-behavior: smooth;
+     -webkit-overflow-scrolling: touch;
+}
+
+
+
