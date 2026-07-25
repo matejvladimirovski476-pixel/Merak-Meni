@@ -1,6 +1,6 @@
 body{
     background-color: gray;
-    background: linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+    background-color: rgb(27, 10, 10);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -17,7 +17,7 @@ span{
     display:inline-block;
     padding:15px 35px;
     background:rgba(255,255,255,.08);
-    border:3px solid skyblue;
+    border:3px solid rgb(131, 97, 2);
     border-radius:15px;
     
     
@@ -64,7 +64,7 @@ ul{
    
     padding:30px;
     border-color: white;
-    border:2px solid rgba(135,206,235,.7);
+    border:2px solid rgb(131, 97, 2);
     border-width: 5px;
     border-radius: 40px;
     width: 450px;
@@ -81,6 +81,11 @@ ul{
      scroll-snap-align: start;
     animation: glow 2s infinite alternate;
 }
+a{
+    color: white;
+}
+
+
 .special{
     
 }
@@ -90,21 +95,21 @@ ul{
 
   @keyframes glowaf {
     from {
-        box-shadow: 0 0 5px skyblue;
+        box-shadow: 0 0 5px rgb(131, 97, 2);
     }
     to {
         box-shadow:
-            0 0 10px skyblue,
-            0 0 20px deepskyblue,
-            0 0 35px cyan;
+            0 0 10px rgb(131, 97, 2),
+            0 0 20px rgb(131, 97, 2),
+            0 0 35px rgb(131, 97, 2);
     }
 }  
 
 .box1:hover{
     transform: translateY(-10px);
     box-shadow:
-        0 0 20px skyblue,
-        0 0 40px cyan;
+        0 0 20px rgb(131, 97, 2),
+        0 0 40px rgb(131, 97, 2);
 }
 
 li{
@@ -112,7 +117,7 @@ li{
     transition:.3s;
 }
 li:hover{
-    color:skyblue;
+    color:rgb(131, 97, 2);
     transform:translateX(8px);
 }
 

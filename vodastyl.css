@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(27, 10, 10);
+
+     overflow-y: auto;
+     -webkit-overflow-scrolling: touch;
+
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+#cena{
+    font-size:30px;
+    color:gold;
+    font-weight:bold;
+    
+    
+}
+img{
+    width:400px;
+    max-width:100%;
+    border-radius:30px;
+    box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+#container{
+     width:700px;
+    margin:50px auto;
+    text-align:center;
+    background:rgba(255,255,255,.08);
+    padding:30px;
+    border:3px solid rgb(243, 97, 0);
+    border-radius:25px;
+    backdrop-filter:blur(10px);
+    border-color: gold;
+}
+#sostojki{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    
+}
+ul{
+    list-style:none;
+    padding:0;
+    font-size:22px;
+}
+li{
+    margin:10px 0;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+html{
+    scroll-behavior: smooth;
+     -webkit-overflow-scrolling: touch;
+}
