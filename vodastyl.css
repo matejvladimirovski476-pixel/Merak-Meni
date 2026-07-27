@@ -28,7 +28,8 @@ img{
     
 }
 #container{
-    width:700px;
+    width:90%;
+    max-width:700px;
     margin:50px auto;
     text-align:center;
     background:rgba(255,255,255,.08);

@@ -126,5 +126,13 @@ html{
      -webkit-overflow-scrolling: touch;
 }
 
+a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
 
+a:hover{
+    color:gold;
+}
 
