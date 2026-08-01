@@ -11,64 +11,44 @@ body{
     overflow-y: auto;
      -webkit-overflow-scrolling: touch;
 }
-    
-
-span{
-    display:inline-block;
-    padding:15px 35px;
-    background:rgba(255,255,255,.08);
-    border:3px solid rgb(131, 97, 2);
-    border-radius:15px;
-    
-    
-    
-    
-}
 h1{
     color: white;
     font-size: 250%;
     position: relative;
-    text-align: center;
+    text-align: left;
 
     margin-top:40px;
     margin-bottom:30px;
     letter-spacing:3px;
     
-    
-    
-    
 }
-
-ul{ 
+h2{
     color: white;
-    font-size: 170%;
-    margin:0;
-    padding-left:25px;
+    font-size: 250%;
+    position: relative;
     text-align: left;
-    
 
+    margin-top:40px;
+    margin-bottom:30px;
+    letter-spacing:3px;
+    
 }
-#p2{
-    color: white;
-    font-size: 200%;
-    text-shadow: 5px 5px 5px black;
-}
-/* div */
-.container{
+#container1
+{
     display: flex;
     flex-wrap:wrap;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
 }
-.box1{
+.container2{
    
     padding:30px;
     border-color: white;
     border:2px solid rgb(131, 97, 2);
     border-width: 5px;
     border-radius: 40px;
-    width: 1050px;
+    width: 850px;
     min-height: 450px;
     margin: 50px;
     padding: 20px;
@@ -82,37 +62,15 @@ ul{
      scroll-snap-align: start;
     animation: glow 2s infinite alternate;
 }
-a{
+ul{ 
     color: white;
-}
-
-
-.special{
-    
-}
+    font-size: 170%;
+    margin:0;
+    padding-left:25px;
+    text-align: left;
     
 
-   
-
-  @keyframes glowaf {
-    from {
-        box-shadow: 0 0 5px rgb(131, 97, 2);
-    }
-    to {
-        box-shadow:
-            0 0 10px rgb(131, 97, 2),
-            0 0 20px rgb(131, 97, 2),
-            0 0 35px rgb(131, 97, 2);
-    }
-}  
-
-.box1:hover{
-    transform: translateY(-10px);
-    box-shadow:
-        0 0 20px rgb(131, 97, 2),
-        0 0 40px rgb(131, 97, 2);
 }
-
 li{
     margin:12px 0;
     transition:.3s;
@@ -121,19 +79,7 @@ li:hover{
     color:rgb(131, 97, 2);
     transform:translateX(8px);
 }
-
 html{
     scroll-behavior: smooth;
      -webkit-overflow-scrolling: touch;
 }
-
-a{
-    color:white;
-    text-decoration:none;
-    transition:.3s;
-}
-
-a:hover{
-    color:gold;
-}
-
