@@ -20,6 +20,7 @@ h1{
     margin-top:40px;
     margin-bottom:30px;
     letter-spacing:3px;
+    text-shadow: 5px 5px 5px black;
     
 }
 h2{
@@ -68,12 +69,16 @@ ul{
     margin:0;
     padding-left:25px;
     text-align: left;
+
+   
+}
     
 
-}
+
 li{
     margin:12px 0;
     transition:.3s;
+    text-shadow: 5px 5px 5px black;
 }
 li:hover{
     color:rgb(131, 97, 2);
@@ -82,4 +87,25 @@ li:hover{
 html{
     scroll-behavior: smooth;
      -webkit-overflow-scrolling: touch;
+}
+#cena{
+    font-size:30px;
+    color:gold;
+    font-weight:bold;
+    text-shadow: 5px 5px 5px black;
+    
+}
+img{
+    width:400px;
+    max-width:100%;
+    border-radius:30px;
+    box-shadow:0 0 20px rgba(0,0,0,.5);
+    
+    
+}
+#sostojki{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    
 }
