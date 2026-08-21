@@ -9,27 +9,43 @@ body{
      background-repeat: no-repeat;
      background-position: center;
 }
+
+    
 h1{
+    font-size: 350%;
     color: white;
     text-shadow: 5px 5px 5px black;
 }
+h2{
+    font-size: 310%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+h3{
+    font-size: 190%;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
 #cena{
-    font-size:30px;
+    font-size:40px;
     color:gold;
     font-weight:bold;
     text-shadow: 5px 5px 5px black;
     
 }
 img{
-    width:400px;
+    width:650px;
     max-width:100%;
+    max-height:auto;
     border-radius:30px;
     box-shadow:0 0 20px rgba(0,0,0,.5);
+    
     
 }
 #container{
     width:90%;
-    max-width:700px;
+    max-width:900px;
     margin:50px auto;
     text-align:center;
     background:rgba(255,255,255,.08);
@@ -40,19 +56,23 @@ img{
     border-color: gold;
     
 }
+
 #sostojki{
+    font-size: 38px;
     color: white;
-    text-align: center;
+    text-align: left;
     text-shadow: 5px 5px 5px black;
     
 }
 ul{
+    text-align: left;
     list-style:none;
     padding:0;
-    font-size:22px;
+    font-size:33px;
 }
 li{
-    margin:10px 0;
+    padding-left:5px;
+    margin:9px 0;
     color: white;
     text-shadow: 5px 5px 5px black;
 }
@@ -60,4 +80,83 @@ li{
 html{
     scroll-behavior: smooth;
      -webkit-overflow-scrolling: touch;
+}
+a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+
+    font-size: 20px;
+    
+    
+}
+
+a:hover{
+    color:gold;
+}
+
+#navdiv{
+    
+   background: #2b2118;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    top:0;
+    z-index: 1000;
+    flex-direction: row; 
+    position: sticky;
+    font-size: 15px;
+
+    margin-top: 1%;
+    
+
+
+      
+
+    
+}
+.logo{
+    padding-left: 1px;
+    margin-left: -6%;
+    
+}
+    
+
+#navdiv::-webkit-scrollbar{
+    display: none;
+}
+#L{
+    
+    width: 60px;
+    border-radius: 0%;
+    margin-top: 5%;
+    margin-left: -14%;
+
+}
+
+
+.navbar{
+
+    
+    background: #2b2118;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    top:0;
+    z-index: 1000;
+    flex-direction: row;
+    word-spacing: 15%;
+    gap: 30px;
+
+    
+    
+}
+.nav-link{
+    
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+   
 }

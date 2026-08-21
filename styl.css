@@ -11,7 +11,31 @@ body{
     overflow-y: auto;
      -webkit-overflow-scrolling: touch;
 }
+.navbar{
+
     
+    background: #2b2118;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    top:0;
+    z-index: 1000;
+    flex-direction: row;
+    word-spacing: 16%;
+    
+    
+    
+    
+}
+.nav-link{
+    
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+
 
 span{
     display:inline-block;
@@ -19,14 +43,14 @@ span{
     background:rgba(255,255,255,.08);
     border:3px solid rgb(131, 97, 2);
     border-radius:15px;
-    
+    text-shadow: 5px 5px 5px black;
     
     
     
 }
 h1{
     color: white;
-    font-size: 250%;
+    font-size: 350%;
     position: relative;
     text-align: center;
 
@@ -49,8 +73,10 @@ ul{
 
 }
 #p2{
+    margin-top: 15px;
+    text-align: center;
     color: white;
-    font-size: 200%;
+    font-size: 350%;
     text-shadow: 5px 5px 5px black;
 }
 /* div */
@@ -62,7 +88,7 @@ ul{
     gap: 30px;
 }
 .box1{
-   
+    text-align: center;
     padding:30px;
     border-color: white;
     border:2px solid rgb(131, 97, 2);
@@ -82,8 +108,13 @@ ul{
      scroll-snap-align: start;
     animation: glow 2s infinite alternate;
 }
+img{
+    border-radius: 10%;
+}
 a{
     color: white;
+    text-align: center;
+
 }
 
 
@@ -128,6 +159,7 @@ html{
 }
 
 a{
+    
     color:white;
     text-decoration:none;
     transition:.3s;
@@ -136,4 +168,31 @@ a{
 a:hover{
     color:gold;
 }
+#navdiv{
+    
+  background: #2b2118;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    top:0;
+    z-index: 1000;
+    flex-direction: row; 
+    position: sticky;
+    font-size: 12px
+    
+    
+}
+.logo{
+    padding-left: 0px;
+    margin-left: -6%;
+    
+    
+}
+#navdiv::-webkit-scrollbar{
+    display: none;
+}
+
+
+
 
