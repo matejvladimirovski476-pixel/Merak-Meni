@@ -47,6 +47,17 @@ h1{
     text-shadow: 5px 5px 5px black;
     
 }
+h2{
+    color: white;
+    font-size: 200%;
+    position: relative;
+    text-align: left;
+
+    margin-top:40px;
+    margin-bottom:30px;
+    letter-spacing:3px;
+    text-shadow: 5px 5px 5px black;
+}
 
 #container1
 {
@@ -163,4 +174,16 @@ a:hover{
     
     width: 60px;
     border-radius: 0%;
+}
+span{
+    display:inline-block;
+    padding:15px 35px;
+    background:rgba(255,255,255,.08);
+    border:3px solid rgb(131, 97, 2);
+    border-radius:15px;
+    text-shadow: 5px 5px 5px black;  
+}
+hr{
+    width: 100%;
+    color: #300;
 }
