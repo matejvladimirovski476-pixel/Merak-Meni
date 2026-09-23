@@ -22,20 +22,8 @@ body{
     top:0;
     z-index: 1000;
     flex-direction: row;
-    word-spacing: 16%;
-    
-    
-    
-    
+    word-spacing: auto; 
 }
-.nav-link{
-    
-    flex-direction: row;
-    gap: 30px;
-    list-style: none;
-}
-
-
 
 span{
     display:inline-block;
@@ -44,6 +32,7 @@ span{
     border:3px solid rgb(131, 97, 2);
     border-radius:15px;
     text-shadow: 5px 5px 5px black;
+    
     
     
     
@@ -114,6 +103,7 @@ img{
 a{
     color: white;
     text-align: center;
+    
 
 }
 
@@ -179,13 +169,15 @@ a:hover{
     z-index: 1000;
     flex-direction: row; 
     position: sticky;
-    font-size: 12px
+    font-size: 12px;
+    
     
     
 }
 .logo{
-    padding-left: 0px;
+    padding-left: 1px;
     margin-left: -6%;
+    
     
     
 }

@@ -1,0 +1,128 @@
+body{
+    background-color: gray;
+    background-color: rgb(27, 10, 10);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+    
+    overflow-y: auto;
+     -webkit-overflow-scrolling: touch;
+}
+#h1{
+    color: white;
+    font-size: 350%;
+    position: relative;
+    text-align: left;
+
+    margin-top:10px;
+    margin-bottom:30px;
+    letter-spacing:3px;
+    text-shadow: 5px 5px 5px black;
+    
+}
+address{
+    
+    font-style: normal;
+    color: white;
+    font-size: 350%;
+    position: relative;
+    text-align: left;
+
+    margin-top:40px;
+    margin-bottom:30px;
+    letter-spacing:3px;
+    text-shadow: 5px 5px 5px black;
+    
+
+}
+#h2{
+    color: white;
+    font-size: 250%;
+    position: relative;
+    text-align: left;
+
+    margin-top:40px;
+    margin-bottom:30px;
+    letter-spacing:3px;
+    text-shadow: 5px 5px 5px black;
+    
+}
+#h3{
+    color: white;
+    font-size: 200%;
+    position: relative;
+    text-align: left;
+
+    margin-top:40px;
+    margin-bottom:30px;
+    letter-spacing:3px;
+    text-shadow: 5px 5px 5px black;
+    
+}
+
+
+
+
+
+
+
+
+#navdiv{
+    
+  background: #2b2118;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    top:0;
+    z-index: 1000;
+    flex-direction: row; 
+    position: sticky;
+    font-size: 10px
+      
+    
+}
+.navbar{
+
+    
+    background: #2b2118;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    top:0;
+    z-index: 1000;
+    flex-direction: row;
+    word-spacing: 16%; 
+    
+}
+.logo{
+    padding-left: 1px;
+    margin-left: -6%;
+    
+}
+#L{
+    
+    width: 60px;
+    border-radius: 0%;
+}
+span{
+    display:inline-block;
+    padding:15px 35px;
+    background:rgba(255,255,255,.08);
+    border:3px solid rgb(131, 97, 2);
+    border-radius:15px;
+    text-shadow: 5px 5px 5px black;  
+    font-size: 180%;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition:.3s;
+}
+a:hover{
+    color:gold;
+}
