@@ -39,8 +39,10 @@ h1{
     color: white;
     font-size: 350%;
     position: relative;
-    text-align: left;
+    text-align: center;
+    
 
+    
     margin-top:40px;
     margin-bottom:30px;
     letter-spacing:3px;
@@ -58,6 +60,27 @@ h2{
     letter-spacing:3px;
     text-shadow: 5px 5px 5px black;
 }
+.box1{
+    text-align: center;
+    padding-top: auto;
+    margin-top: 123px;
+    border-color: white;
+    border:2px solid rgb(2, 2, 2);
+    border-width: 5px;
+    border-radius: 40px;
+    width: 500px;
+    min-height: 400px;
+    margin: auto;
+
+    box-sizing: border-box;
+
+     background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(10px);
+
+
+     scroll-snap-align: start;
+    animation: glow 2s infinite alternate;
+}
 
 #container1
 {
@@ -71,7 +94,7 @@ h2{
    
     padding:30px;
     border-color: white;
-    border:2px solid rgb(131, 97, 2);
+    border:2px solid rgb(0, 0, 0);
     border-width: 5px;
     border-radius: 40px;
     width: 1000px;
@@ -127,6 +150,7 @@ img{
     max-width:100%;
     border-radius:30px;
     box-shadow:0 0 20px rgba(0,0,0,.5);
+    align-items: center;
     
     
 }
@@ -137,6 +161,7 @@ img{
     
 }
 a{
+    font-size: 30px;
     color: white;
     text-decoration: none;
     transition:.3s;
