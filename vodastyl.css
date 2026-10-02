@@ -29,7 +29,7 @@ h3{
 
 #cena{
     font-size:40px;
-    color:gold;
+    color:rgb(126, 31, 75);
     font-weight:bold;
     text-shadow: 5px 5px 5px black;
     
@@ -50,10 +50,10 @@ img{
     text-align:center;
     background:rgba(255,255,255,.08);
     padding:30px;
-    border:3px solid gold;
+    border:3px solid rgb(2, 2, 2);
     border-radius:25px;
     backdrop-filter:blur(10px);
-    border-color: gold;
+    border-color: rgb(0, 0, 0);
     
 }
 
