@@ -26,6 +26,15 @@ h3{
     color: white;
     text-shadow: 5px 5px 5px black;
 }
+#zacena{
+    border: none;
+    box-shadow: none;
+    font-size:65%;
+    outline: none;
+    background: transparent;
+    color:rgb(126, 31, 75);
+    
+}
 
 #cena{
     font-size:40px;
@@ -64,6 +73,10 @@ img{
     text-shadow: 5px 5px 5px black;
     
 }
+#skara{
+    font-size: 190%;
+}
+
 ul{
     text-align: left;
     list-style:none;
