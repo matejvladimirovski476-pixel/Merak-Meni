@@ -60,6 +60,11 @@ h2{
     letter-spacing:3px;
     text-shadow: 5px 5px 5px black;
 }
+#zaime{
+    font-size: 240%;
+    text-align: center;
+
+}
 .box1{
     text-align: center;
     padding-top: auto;
@@ -91,7 +96,19 @@ h2{
     gap: 30px;
 }
 .container2{
-   
+    width:90%;
+    max-width:900px;
+    margin:50px auto;
+    text-align:center;
+    background:rgba(255,255,255,.08);
+    padding:30px;
+    border:3px solid rgb(2, 2, 2);
+    border-radius:25px;
+    backdrop-filter:blur(10px);
+    border-color: rgb(0, 0, 0);
+
+
+
     padding:30px;
     border-color: white;
     border:2px solid rgb(0, 0, 0);
@@ -139,8 +156,8 @@ html{
      -webkit-overflow-scrolling: touch;
 }
 #cena{
-    font-size:30px;
-    color:gold;
+    font-size:40px;
+    color:rgb(126, 31, 75);
     font-weight:bold;
     text-shadow: 5px 5px 5px black;
     
