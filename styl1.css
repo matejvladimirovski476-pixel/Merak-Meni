@@ -15,25 +15,27 @@ body{
 .navbar{
 
     
-    background: #2b2118;
+    background: #1f1e1d;
     height: 75px;
     display: flex;
     align-items: center;
-    padding: 0 50px;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     top:0;
     z-index: 1000;
     flex-direction: row;
-    word-spacing: 16%;
-    
-    
-    
-    
+    word-spacing: auto; 
+    position: sticky;
+    border-radius: 17px;
 }
-.nav-link{
+#nav-links{
+    color: none;
+}
+.navbar{
+    color: black;
     
-    flex-direction: row;
-    gap: 30px;
-    list-style: none;
 }
 h1{
     color: white;
@@ -231,7 +233,7 @@ span{
     display:inline-block;
     padding:15px 35px;
     background:rgba(255,255,255,.08);
-    border:3px solid rgb(131, 97, 2);
+    border:2px solid rgb(0, 0, 0);
     border-radius:15px;
     text-shadow: 5px 5px 5px black;  
 }

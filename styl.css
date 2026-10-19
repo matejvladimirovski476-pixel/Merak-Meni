@@ -15,26 +15,38 @@ body{
 .navbar{
 
     
-    background: #2b2118;
+    background: #1f1e1d;
     height: 75px;
     display: flex;
     align-items: center;
-    padding: 0 50px;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     top:0;
     z-index: 1000;
     flex-direction: row;
     word-spacing: auto; 
+    position: sticky;
+    border-radius: 17px;
+}
+#nav-links{
+    color: none;
+}
+.navbar{
+    color: black;
+    
 }
 
 span{
     display:inline-block;
     padding:15px 35px;
     background:rgba(255,255,255,.08);
-    border:3px solid rgb(131, 97, 2);
+    border:2px solid rgb(0, 0, 0);
     border-radius:15px;
     text-shadow: 5px 5px 5px black;
     
-    
+    box-shadow: 0 0 12px rgba(113, 127, 145, 0.3);
     
     
 }
@@ -81,8 +93,8 @@ ul{
     text-align: center;
     padding:30px;
     border-color: white;
-    border:2px solid rgb(2, 2, 2);
-    border-width: 5px;
+    border:3px solid rgb(2, 2, 2);
+    border-width: 4px;
     border-radius: 40px;
     width: 1050px;
     min-height: 450px;
