@@ -125,7 +125,7 @@ ul{
 
 li{
     padding-left: 30px;
-    font-size: 180%;
+    font-size: 160%;
     margin:13px;
     transition:.3s;
     text-shadow: 5px 5px 5px black;
@@ -152,6 +152,7 @@ html{
     outline: none;
     background: transparent;
     color:rgb(126, 31, 75);
+    font-weight:bold;
     
 }
 img{
