@@ -11,7 +11,21 @@ body{
     overflow-y: auto;
      -webkit-overflow-scrolling: touch;
 }
-
+.back{
+    background: transparent;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding:10px 16px;
+    font-size: 36px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.back:hover{
+    background: #333;
+    background-color: #212122;
+    color: #c4b5fd;
+}
 .navbar{
 
     
@@ -150,7 +164,7 @@ li{
     text-shadow: 5px 5px 5px black;
 }
 li:hover{
-    color:rgb(131, 97, 2);
+    color:rgb(85, 85, 83);
     transform:translateX(8px);
 }
 html{
@@ -196,7 +210,7 @@ a{
     transition:.3s;
 }
 a:hover{
-    color:gold;
+    color:rgb(71, 71, 71);
 }
 
 #navdiv{
@@ -233,9 +247,10 @@ span{
     display:inline-block;
     padding:15px 35px;
     background:rgba(255,255,255,.08);
-    border:2px solid rgb(0, 0, 0);
+    border:0.01mm solid rgb(92, 88, 88);
     border-radius:15px;
     text-shadow: 5px 5px 5px black;  
+    box-shadow: 0 0 12px rgba(113, 127, 145, 0.3);
 }
 hr{
     width: 100%;

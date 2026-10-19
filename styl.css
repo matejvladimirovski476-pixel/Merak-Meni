@@ -12,9 +12,23 @@ body{
     overflow-y: auto;
      -webkit-overflow-scrolling: touch;
 }
+.back{
+    background: transparent;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding:10px 16px;
+    font-size: 36px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.back:hover{
+    background: #333;
+    background-color: #212122;
+    color: #c4b5fd;
+}
 .navbar{
 
-    
     background: #1f1e1d;
     height: 75px;
     display: flex;
@@ -28,7 +42,7 @@ body{
     flex-direction: row;
     word-spacing: auto; 
     position: sticky;
-    border-radius: 17px;
+    border-radius: 10px;
 }
 #nav-links{
     color: none;
@@ -42,10 +56,9 @@ span{
     display:inline-block;
     padding:15px 35px;
     background:rgba(255,255,255,.08);
-    border:2px solid rgb(0, 0, 0);
+    border:0.01mm solid rgb(92, 88, 88);
     border-radius:15px;
     text-shadow: 5px 5px 5px black;
-    
     box-shadow: 0 0 12px rgba(113, 127, 145, 0.3);
     
     
@@ -143,8 +156,8 @@ a{
 .box1:hover{
     transform: translateY(-10px);
     box-shadow:
-        0 0 20px rgb(116, 116, 113),
-        0 0 40px rgb(116, 113, 112);
+        0 0 20px rgb(150, 150, 150),
+        0 0 40px rgb(151, 150, 150);
 }
 
 li{
@@ -152,7 +165,7 @@ li{
     transition:.3s;
 }
 li:hover{
-    color:rgb(131, 97, 2);
+    color:rgb(58, 58, 57);
     transform:translateX(8px);
 }
 
@@ -169,7 +182,7 @@ a{
 }
 
 a:hover{
-    color:rgb(70, 67, 67);
+    color:rgb(85, 83, 83);
 }
 #navdiv{
     
