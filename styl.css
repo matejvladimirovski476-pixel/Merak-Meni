@@ -42,7 +42,7 @@ body{
     flex-direction: row;
     word-spacing: auto; 
     position: sticky;
-    border-radius: 10px;
+    border-radius: 17px;
 }
 #nav-links{
     color: none;
